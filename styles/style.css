@@ -5,7 +5,6 @@
     font-size: 18px;
     padding: 92 49 92 51px;
     min-height: 291px;
-    margin: auto;
 }
   
 .header__logo {
@@ -25,9 +24,9 @@
     list-style: circle outside;
 }
 
-.header__menu-list:first-child {
+.header__menu-item:first-child {
     margin-right: 0px;
-    list-style-type: 0;
+    list-style: none;
 }
 
 .header__menu-item {
@@ -35,6 +34,8 @@
 
 .header__contact-information {
     flex-direction: column;
+    list-style-type: none;
+    max-width: 240px;
 }
 
 .banner {
