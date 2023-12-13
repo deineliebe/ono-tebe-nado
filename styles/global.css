@@ -5,16 +5,13 @@
 }
 
 body {
-  min-width: 1100px;
   margin: 0;
   font-family: Raleway, sans-serif;
   color: #000;
   background-color: #ffffff;
   font-weight: 400;
-  width: 100%;
-  max-width: 1440px;
-  min-height: 100px;
   margin: auto;
+  text-underline-offset: 5px;
 }
 
 h1,
@@ -40,8 +37,11 @@ img {
   width: 100%;
 }
 
-.accent-span {
-  display: block;
+.h2-title {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+
 }
 
 .text-center {
@@ -50,4 +50,12 @@ img {
 
 .text-right {
   text-align: right;
+}
+
+.line-height-115 {
+  line-height: 115%;
+}
+
+.letter-spacing-60 {
+  letter-spacing: 60px;
 }
