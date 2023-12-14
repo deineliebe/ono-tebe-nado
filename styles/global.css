@@ -41,7 +41,6 @@ img {
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
-
 }
 
 .text-center {
@@ -50,6 +49,14 @@ img {
 
 .text-right {
   text-align: right;
+}
+
+.block-center {
+  justify-self: center;
+}
+
+.block-right {
+  justify-self: end;
 }
 
 .line-height-115 {

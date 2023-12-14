@@ -1,19 +1,20 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     font-size: 18px;
-    height: 291px;
+    height: 105px;
     margin: 92px 49px 92px 51px;
     line-height: 24.3px;
 }
   
 .header__logo-image {
-    width: 140px;
     height: 105px;
 }
   
+.header__menu {
+    align-self: center;
+}
+
 .header__menu-list {
     display: flex;
     flex-direction: row;
@@ -71,7 +72,7 @@
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: end;
+    justify-content: space-evenly;
     gap: 78px;
     font-weight: 400;
     height: 52px;
@@ -82,6 +83,7 @@
 
 .banner__line {
     white-space: pre-wrap;
+    font-size: 22px;
 }
 
 .banner__button {
@@ -98,16 +100,41 @@
 
 .lots__images {
     display: grid;
-    grid-template-columns: repeat(3, 30%);
-    gap: 30px 25px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 554px;
+    gap: 25px;
 }
 
-.lots__img {
+.lots__image {
     position: relative;
-    background: rgba(0, 0, 0, 0.60);
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    z-index: -1;
 }
 
+.lots__image::after {    
+    content: "";
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 0;
+}
 
+.lots__card {
+    position: relative;
+    display: grid;
+    color: #FFF;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+.lots__outer_text {
+    padding: 25px;
+}
 
 
 .lots__link {
@@ -115,23 +142,35 @@
     font-size: 20px;
 }
 
-.auction-info {
-    margin: 180px 50px;
+
+.about {
+    display: grid;
+    grid-template-columns: 352px auto;
+    gap: 25px;
+    margin: 180px 9px;
+}
+
+.about-info {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.auction__logo {
+.about__logo {
     background-image: url('../images/Ellipse\ 10.svg');
     background-repeat: no-repeat;
     width: 240px;
     align-items: flex-start;
+    margin: 0px 45px 0px 70px;
 }
 
-.auction__logo-img {
+.about__logo-img {
     position: relative;
     padding: 63px 40px;
+}
+
+.about__title {
+    padding: 97px 0px 75px 0px;
 }
 
 .about__text-info {
@@ -140,15 +179,13 @@
 
 .about__text {
     font-size: 20px;
-    white-space: pre-wrap;
-    gap: 25px;
+    padding-top: 25px;
 }
 
 
 .footer {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     align-items: flex-start;
     font-size: 18px;
     margin: 92px 49px 92px 51px;
