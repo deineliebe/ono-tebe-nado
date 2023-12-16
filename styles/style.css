@@ -33,7 +33,7 @@
     max-width: 240px;
 }
 
-.banner {
+.cover {
     display: grid;
     min-height: 757px;
     background-image: url('../images/cover.jpg');
@@ -43,7 +43,7 @@
     gap: 147px;
 }
 
-.banner__image {
+.cover__image {
     position: absolute;
     min-height: 757px;
     width: 100%;
@@ -51,16 +51,14 @@
     z-index: 0;
 }
 
-.banner__card {
-    margin-top: 165px;
-    margin-left: 50px;
-    margin-right: 50px;
+.cover__card {
+    padding: 165px 50px 0 50px;
     color: #FFF;
     text-transform: uppercase;
     z-index: 1;
 }
 
-.banner__title {
+.cover__title {
     font-weight: 700;
     letter-spacing: 30px;
     display: block;
@@ -68,11 +66,11 @@
     gap: 20px;
 }
 
-.banner__description {
+.cover__description {
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: end;
     gap: 78px;
     font-weight: 400;
     height: 52px;
@@ -81,12 +79,12 @@
     line-height: 127.273%;
 }
 
-.banner__line {
+.cover__line {
     white-space: pre-wrap;
     font-size: 22px;
 }
 
-.banner__button {
+.bet-button {
     border: 1px solid #FFF;
     padding: 12px 32px;
 }
@@ -94,7 +92,7 @@
 .lots {
     display: flex;
     flex-direction: column;
-    margin: 182px 50px 0px 50px;
+    margin: 180px 50px 0px 50px;
     gap: 25px;
 }
 
@@ -154,7 +152,6 @@
     padding: 40px;
 }
 
-
 .lots__link {
     display: block;
     font-size: 20px;
@@ -164,7 +161,7 @@
     display: grid;
     grid-template-columns: 430px auto;
     gap: 25px;
-    padding: 180px 50px 180px 0px;
+    padding: 182px 50px 180px 0px;
 }
 
 .about-info {

@@ -12,7 +12,7 @@ body {
   font-weight: 400;
   margin: auto;
   text-underline-offset: 5px;
-  min-width: 1440px;
+  min-width: 1400px;
 }
 
 h1,
@@ -64,6 +64,10 @@ img {
   line-height: 115%;
 }
 
-.letter-spacing-60 {
+.letter-spacing-extended {
   letter-spacing: 60px;
+}
+
+.address {
+  font-style: normal;
 }
