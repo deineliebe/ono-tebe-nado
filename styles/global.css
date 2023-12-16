@@ -12,6 +12,7 @@ body {
   font-weight: 400;
   margin: auto;
   text-underline-offset: 5px;
+  min-width: 1440px;
 }
 
 h1,
