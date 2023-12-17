@@ -99,7 +99,8 @@
 .lots__images {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 450px;
+    grid-template-rows: 1fr;
+    min-height: 450px;
     gap: 25px;
 }
 
@@ -111,6 +112,12 @@
     z-index: -1;
 }
 
+.lots__card {
+    position: relative;
+    color: #FFF;
+    display: flex;
+}
+
 .lots__card::after {
     content: "";
     position: absolute;
@@ -120,30 +127,22 @@
     z-index: 0;
 }
 
-.lots__card {
-    position: relative;
-    color: #FFF;
-    display: flex;
-}
-
 .lots__card-text {
+    padding: 50px 37px 50px 40px;
+    display: flex;
     flex-direction: column;
+    justify-content: space-between;
     z-index: 1;
 }
 
 .lots__title {
-    padding: 50px 37px 0 40px;
     font-size: 22px;
     text-decoration-line: underline;
     text-transform: uppercase;
 }
 
 .lots__other-text {
-    position: absolute;
     font-size: 20px;
-    bottom: 50px;
-    right: 40px;
-    left: 40px;
 }
 
 .lots__outer_text {
