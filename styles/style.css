@@ -3,13 +3,13 @@
     grid-template-columns: repeat(3, 1fr);
     font-size: 18px;
     min-height: 109px;
-    padding: 92px 49px 92px 51px;
+    padding: 92px 49px 91px 51px;
     align-items: center;
     line-height: 135%;
 }
   
 .header__logo-image {
-    max-height: 105px;
+    max-height: 109px;
     padding-bottom: 4px;
 }
 
@@ -129,7 +129,7 @@
 }
 
 .lots__title {
-    padding: 50px 25px 0 40px;
+    padding: 50px 20px 0 40px;
     font-size: 22px;
     text-decoration-line: underline;
     text-transform: uppercase;
@@ -204,7 +204,7 @@
 .footer__images {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 240px;
 }
 

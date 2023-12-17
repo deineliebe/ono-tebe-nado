@@ -51,7 +51,6 @@ img {
 .contact-information {
     flex-direction: column;
     list-style-type: none;
-    max-width: 240px;
 }
 
 .text-center {
@@ -84,5 +83,6 @@ img {
 
 .address {
   font-style: normal;
+  line-height: 135%;
   font-family: Raleway, sans-serif;
 }
