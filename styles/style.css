@@ -27,12 +27,6 @@
     text-decoration: none;
 }
 
-.contact-information {
-    flex-direction: column;
-    list-style-type: none;
-    max-width: 240px;
-}
-
 .cover {
     display: grid;
     min-height: 757px;
@@ -93,7 +87,6 @@
     display: flex;
     flex-direction: column;
     margin: 180px 50px 0px 50px;
-    gap: 25px;
 }
 
 .lots__images {

@@ -10,7 +10,7 @@ body {
   color: #000;
   background-color: #ffffff;
   font-weight: 400;
-  margin: auto;
+  line-height: normal;
   text-underline-offset: 5px;
   min-width: 1400px;
 }
@@ -44,6 +44,12 @@ img {
   text-transform: uppercase;
 }
 
+.contact-information {
+    flex-direction: column;
+    list-style-type: none;
+    max-width: 240px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -70,4 +76,5 @@ img {
 
 .address {
   font-style: normal;
+  font-family: Raleway, sans-serif;
 }
