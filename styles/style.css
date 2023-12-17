@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     font-size: 18px;
-    min-height: 109px;
+    max-height: 293px;
     padding: 92px 49px 91px 51px;
     align-items: center;
     line-height: 135%;
@@ -73,12 +73,12 @@
     min-height: 52px;
     padding-top: 135px;
     font-size: 22px;
-    line-height: 127.273%;
 }
 
 .cover__line {
     white-space: pre-wrap;
     font-size: 22px;
+    line-height: 127.273%;
 }
 
 .bet-button {
