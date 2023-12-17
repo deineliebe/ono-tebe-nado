@@ -78,6 +78,10 @@ img {
   letter-spacing: 60px;
 }
 
+.no-letter-spacing {
+  letter-spacing: 0;
+}
+
 .address {
   font-style: normal;
   font-family: Raleway, sans-serif;

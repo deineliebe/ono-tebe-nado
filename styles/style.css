@@ -4,15 +4,16 @@
     font-size: 18px;
     min-height: 109px;
     padding: 92px 49px 92px 51px;
+    align-items: center;
     line-height: 135%;
 }
   
 .header__logo-image {
     max-height: 105px;
+    padding-bottom: 4px;
 }
   
 .header__menu {
-    align-self: center;
 }
 
 .header__menu-list {
@@ -30,7 +31,7 @@
 .cover {
     position: relative;
     display: grid;
-    min-height: 757px;
+    max-height: 757px;
     background-image: url('../images/cover.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -126,14 +127,12 @@
 }
 
 .lots__card-text {
-    padding: 50px 40px;
-    font-size: 20px;
-    display: flex;
     flex-direction: column;
     z-index: 1;
 }
 
 .lots__title {
+    padding: 50px 25px 0 40px;
     font-size: 22px;
     text-decoration-line: underline;
     text-transform: uppercase;
@@ -141,6 +140,7 @@
 
 .lots__other-text {
     position: absolute;
+    font-size: 20px;
     bottom: 50px;
     right: 40px;
     left: 40px;
