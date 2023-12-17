@@ -12,9 +12,6 @@
     max-height: 105px;
     padding-bottom: 4px;
 }
-  
-.header__menu {
-}
 
 .header__menu-list {
     display: flex;
