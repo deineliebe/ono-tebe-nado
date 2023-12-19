@@ -27,64 +27,53 @@
       <a class="header__logo block-center">
         <img class="header__logo-image" src="./images/logo-black.svg" alt="Логотип объекта" />
       </a>
-      <ul class="contact-information block-right">
-        <li>
-            <a href="tel:+99995555555">+9 999 555 5555</a>
-        </li>
-        <li>
-            <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        </li>
-        <li>
-            <address class="address">
-              наб. Принсенграхт 263-265,
-              <br>Амстердам
-            </address>
-        </li>
-      </ul>
+      <address class="contact-information block-right address">
+        <a href="tel:+99995555555">+9 999 555 5555</a>
+        <br>
+        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <br>
+        наб. Принсенграхт 263-265,
+        <br>
+        Амстердам
+      </address>
     </header>
     <main>
-      <section class="cover">
+      <section class="cover cover__card">
         <div class="cover__image">
         </div>
-        <div class = "cover__card">
-          <h1 class="cover__title line-height-extended">
-            <span>о</span><span class="letter-spacing-extended">но</span>
-          </h1>
-          <h1 class="cover__title text-center">
-            <span>те</span><span class="letter-spacing-extended">бе</span>
-          </h1>
-          <h1 class="cover__title text-right">
-            <span class="letter-spacing-extended">н</span><span>ад</span><span class="no-letter-spacing">о</span>
-          </h1>
-          <div class="cover__description">
-            <span class="cover__line text-center">Аукцион    вещей,    в    которые    никто    не     верил</span>
-            <span class="bet-button text-right">Сделать ставку</span>
-          </div>
+        <h1 class="cover__title">
+          <span class="new-line"><span class="line-height-extended">о</span><span class="letter-spacing-extended">но</span></span>
+          <span class="new-line text-center"><span>те</span><span class="letter-spacing-extended">бе</span></span>
+          <span class="new-line text-right"><span class="letter-spacing-extended">н</span><span>ад</span><span class="no-letter-spacing">о</span></span>
+        </h1>
+        <div class="cover__description">
+          <span class="cover__line text-center">Аукцион    вещей,    в    которые    никто    не     верил</span>
+          <button type="button" class="bet-button text-right">Сделать ставку</button>
         </div>
       </section>
       <section class="lots">
-        <h2 class="h2-title lots__outer_text">
+        <h2 class="section-title lots__outer_text">
           Лоты
         </h2>
         <div class="lots__images">
           <article class="lots__card">
             <img class="lots__image" src="./images/card-lot-01.jpg" alt="Пол Томас Андерсон"/>
             <div class="lots__card-text">
-              <h4 class="lots__title">Фильм режиссёра, который  бросил киношколу</h4>
+              <h3 class="lots__title">Фильм режиссёра, который  бросил киношколу</h3>
               <p class="lots__other-text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
             </div>
           </article>
           <article class="lots__card">
             <img class="lots__image" src="./images/card-lot-02.jpg" alt="Улисс"/>
             <div class="lots__card-text">
-              <h4 class="lots__title">Книга, где описан один скучный день из жизни рекламного агента</h4>
+              <h3 class="lots__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
               <p class="lots__other-text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
             </div>
           </article>
           <article class="lots__card">
             <img class="lots__image" src="./images/card-lot-03.jpg" alt="Кандинский"/>
             <div class="lots__card-text">
-              <h4 class="lots__title">Картина, которую повторит даже 5-летний сын маминой подруги</h4>
+              <h3 class="lots__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
               <p class="lots__other-text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
             </div>
           </article>
@@ -96,7 +85,7 @@
           <img class="about__logo-img" src="./images/logo-white.svg" alt="Логотип сайта"/>
         </div>
         <div class="about__text-info">
-          <h2 class="h2-title about__title">
+          <h2 class="section-title about__title">
             Об аукционе
           </h2>
           <p class="about__text">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
@@ -105,20 +94,15 @@
       </section>
     </main>
     <footer class="footer">
-      <ul class="contact-information">
-        <li>
-            <a href="tel:+99995555555">+9 999 555 5555</a>
-        </li>
-        <li>
-            <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        </li>
-        <li>
-          <address class="address">
-            наб. Принсенграхт 263-265,
-            <br>Амстердам
-          </address>
-        </li>
-      </ul>
+      <address class="address contact-information">
+        <a href="tel:+99995555555">+9 999 555 5555</a>
+        <br>
+        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <br>
+        наб. Принсенграхт 263-265,
+        <br>
+        Амстердам
+      </address>
       <nav>
         <ul class="footer__menu-list block-center">
             <li class="footer__menu-item">
@@ -133,9 +117,9 @@
           </ul>
       </nav>
       <div class="footer__images block-right">
-        <img class="footer_image" src="./images/yt.svg" alt="Youtube" />
-        <img class="footer_image" src="./images/vk.svg" alt="VK" />
-        <img class="footer_image" src="./images/pinterest.svg" alt="Pinterest" />
+        <img class="footer__image" src="./images/yt.svg" alt="Youtube" />
+        <img class="footer__image" src="./images/vk.svg" alt="VK" />
+        <img class="footer__image" src="./images/pinterest.svg" alt="Pinterest" />
       </div>
     </footer>
   </body>
