@@ -20,10 +20,6 @@ li a,
   line-height: 135%;
 }
 
-.new-line {
-  display: block;
-}
-
 .text-center {
   text-align: center;
 }
@@ -68,7 +64,6 @@ li a,
   
 .header__logo-image {
   max-block-size: 109px;
-  max-inline-size: 138px;
   padding-top: 4px;
 }
 
@@ -107,7 +102,7 @@ li a,
 }
 
 .cover__card {
-  padding: 172px 50px 50px 50px;
+  padding: 165px 50px 50px 50px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -125,14 +120,18 @@ li a,
   z-index: 1;
 }
 
+.cover__new-line {
+  display: block;
+  padding-bottom: 20px;
+}
+
 .cover__description {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: end;
   gap: 78px;
-  min-height: 52px;
-  padding-top: 110px;
+  padding-top: 90px;
   font-size: 22px;
   z-index: 1;
 }
@@ -222,7 +221,7 @@ li a,
   display: grid;
   grid-template-columns: 430px auto;
   gap: 25px;
-  padding: 180px 50px 180px 50px;
+  padding: 180px 50px 181px 50px;
 }
 
 .about-info {
