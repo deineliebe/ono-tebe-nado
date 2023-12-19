@@ -57,7 +57,7 @@ li a,
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   font-size: 18px;
-  padding: 89px 51px 90px 50px;
+  padding: 89px 51px 89px 50px;
   align-items: center;
   line-height: 135%;
 }
